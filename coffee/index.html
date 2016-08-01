@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>疯咔</title>
+        <link rel="stylesheet" href="css/reset.css" >
+        <link rel="stylesheet" href="css/bootstrap.css" >
+        <link rel="stylesheet" href="css/default_skin.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/public.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/style.css" >
+        <script src="js/jquery.js" charset="utf-8"></script>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                            <span class="sr-only">切换导航</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1>
+                            <a class="navbar-brand" href="#">
+                                <img src="img/logo.png" alt="" />
+                            </a>
+                        </h1>
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                        <ul class="nav navbar-nav nav-right">
+                            <li class="active"><a href="#story">关于疯咖</a></li>
+                            <li><a href="#order">点单流程</a></li>
+                            <li><a href="#section1">扫码关注</a>
+                                <img src="img/code.png" alt="" />
+                            </li>
+                            <li><a href="#myCarousel2">产品</a></li>
+                            <li><a href="#active">活动</a></li>
+                            <li id="navdown"><a href="#navdown">加入</a>
+                                <ul class="drop-down horizon-center">
+                                    <a href="joinus.html">加盟合作</a>
+                                    <a href="about.html">加入我们</a>
+            	                </ul>
+                            </li>
+                            <li><a href="#contact">联系</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="topbtn">
+            ^
+        </div>
+        <div id="myCarousel1" class="carousel slide">
+           <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+           <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/myCarousel1.jpg" alt="First slide">
+                    <div class="product-info"></div>
+                </div>
+                <div class="item">
+                    <img src="img/myCarousel2.jpg" alt="Second slide">
+                    <div class="product-info"></div>
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel1"
+            data-slide="prev"><img src="img/left.png" alt="" /></a>
+            <a class="carousel-control right" href="#myCarousel1"
+            data-slide="next"><img src="img/right.png" alt="" /></a>
+        </div>
+        <div id="section1">
+		    <img src="img/section1_img.png" alt="">
+	    </div>
+        <div id="myCarousel2" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel2" data-slide-to="1"></li>
+                <li data-target="#myCarousel2" data-slide-to="2"></li>
+                <li data-target="#myCarousel2" data-slide-to="3"></li>
+                <li data-target="#myCarousel2" data-slide-to="4"></li>
+                <li data-target="#myCarousel2" data-slide-to="5"></li>
+                <li data-target="#myCarousel2" data-slide-to="6"></li>
+                <li data-target="#myCarousel2" data-slide-to="7"></li>
+                <li data-target="#myCarousel2" data-slide-to="8"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="inner">
+                        <img src="img/coffee1.jpg" alt="First slide">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="product-info visible-xs">
+                        <h5>焦糖玛奇朵/冰</h5>
+                        <p>Iced Caramel Macchiato</p>
+                    </div>
+                    <div class="describe-top">
+                        <img src="img/describe-top.png" alt="" />
+                        <p>Iced Caramel <br> Macchiato</p>
+                        <p>焦糖玛奇朵/冰</p>
+                    </div>
+                    <div class="describe-bottom">
+                        <img src="img/describe-bottom.png" alt="" />
+                        <p>焦糖玛奇朵/冰</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <img src="img/coffee2.jpg" alt="First slide">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="product-info visible-xs">
+                        <h5>焦糖玛奇朵/热</h5>
+                        <p>hoted Caramel Macchiato</p>
+                    </div>
+                    <div class="describe-top">
+                        <img src="img/describe-top.png" alt="" />
+                        <p>Iced Caramel <br> Macchiato</p>
+                        <p>焦糖玛奇朵/热</p>
+                    </div>
+                    <div class="describe-bottom">
+                        <img src="img/describe-bottom.png" alt="" />
+                        <p>焦糖玛奇朵/冰</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <img src="img/coffee3.jpg" alt="First slide">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="product-info visible-xs">
+                        <h5>美式/热</h5>
+                        <p>Hot Americano美式咖啡是最普通却又最挑战味蕾的咖啡。是使用滴滤式咖啡壶所制作出的黑咖啡，又或者是意式浓缩中加入水制成。是最能体现咖啡本身风味的选择。美式咖啡就犹如它的名字一样简单直接，可以大口畅饮，极其适合粗犷豪放的牛仔BOY。</p>
+                    </div>
+                    <div class="describe-top">
+                        <img src="img/describe-top.png" alt="" />
+                        <p>Hot Americano美式咖啡是最普通却又最挑战味蕾的咖啡。是使用滴滤式咖啡壶所制作出的黑咖啡，又或者是意式浓缩中加入水制成。是最能体现咖啡本身风味的选择。美式咖啡就犹如它的名字一样简单直接，可以大口畅饮，极其适合粗犷豪放的牛仔BOY。</p>
+                        <p>美式/热</p>
+                    </div>
+                    <div class="describe-bottom">
+                        <img src="img/describe-bottom.png" alt="" />
+                        <p>美式/热</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <img src="img/coffee4.jpg" alt="First slide">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="product-info visible-xs">
+						<h5>美式/冰</h5>
+						<p>Iced Americano</p>
+					</div>
+                    <div class="describe-top">
+                        <img src="img/describe-top.png" alt="" />
+                        <p>Iced Americano</p>
+                        <p>美式/冰</p>
+                    </div>
+                    <div class="describe-bottom">
+                        <img src="img/describe-bottom.png" alt="" />
+                        <p>美式/冰</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <img src="img/coffee5.jpg" alt="First slide">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="product-info visible-xs">
+						<h5>摩卡/热</h5>
+						<p>Hot Mocha</p>
+					</div>
+                    <div class="describe-top">
+                        <img src="img/describe-top.png" alt="" />
+                        <p>Hot Mocha</p>
+                        <p>摩卡/热</p>
+                    </div>
+                    <div class="describe-bottom">
+                        <img src="img/describe-bottom.png" alt="" />
+                        <p>摩卡/热</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <img src="img/coffee6.jpg" alt="First slide">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="product-info visible-xs">
+						<h5>拿铁/冰</h5>
+						<p>
+                            Iced Latte
+                            拿铁咖啡是意大利浓缩咖啡与牛奶的经典混合，意大利人也很喜欢把拿铁作为早餐的饮料。意大利人早晨的厨房里，照得到阳光的炉子上通常会同时煮着咖啡和牛奶。喝拿铁的意大利人，与其说他们喜欢意大利浓缩咖啡，不如说他们喜欢牛奶，也只有espresso才能给普普通通的牛奶带来让人难以忘怀的味道。
+                        </p>
+					</div>
+                    <div class="describe-top">
+                        <img src="img/describe-top.png" alt="" />
+                        <p>拿铁咖啡是意大利浓缩咖啡与牛奶的经典混合，意大利人也很喜欢把拿铁作为早餐的饮料。意大利人早晨的厨房里，照得到阳光的炉子上通常会同时煮着咖啡和牛奶。喝拿铁的意大利人，与其说他们喜欢意大利浓缩咖啡，不如说他们喜欢牛奶，也只有espresso才能给普普通通的牛奶带来让人难以忘怀的味道。							</p>
+                        <p>拿铁/冰</p>
+                    </div>
+                    <div class="describe-bottom">
+                        <img src="img/describe-bottom.png" alt="" />
+                        <p>拿铁/冰</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <img src="img/coffee7.jpg" alt="First slide">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="product-info visible-xs">
+						<h5>拿铁/热</h5>
+						<p>Hot Latte 拿铁咖啡是意大利浓缩咖啡与牛奶的经典混合，意大利人也很喜欢把拿铁作为早餐的饮料。意大利人早晨的厨房里，照得到阳光的炉子上通常会同时煮着咖啡和牛奶。喝拿铁的意大利人，与其说他们喜欢意大利浓缩咖啡，不如说他们喜欢牛奶，也只有espresso才能给普普通通的牛奶带来让人难以忘怀的味道。</p>
+					</div>
+                    <div class="describe-top">
+                        <img src="img/describe-top.png" alt="" />
+                        <p>Hot Latte 拿铁咖啡是意大利浓缩咖啡与牛奶的经典混合，意大利人也很喜欢把拿铁作为早餐的饮料。意大利人早晨的厨房里，照得到阳光的炉子上通常会同时煮着咖啡和牛奶。喝拿铁的意大利人，与其说他们喜欢意大利浓缩咖啡，不如说他们喜欢牛奶，也只有espresso才能给普普通通的牛奶带来让人难以忘怀的味道。</p>
+                        <p>拿铁/热</p>
+                    </div>
+                    <div class="describe-bottom">
+                        <img src="img/describe-bottom.png" alt="" />
+                        <p>拿铁/热</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner">
+                        <img src="img/coffee8.jpg" alt="First slide">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="text-center visible-xs product-info-bottom">
+                        <h5>摩卡/冰</h5>
+                        <p>Iced Mocha</p>
+                    </div>
+                    <div class="describe-top">
+                        <img src="img/describe-top.png" alt="" />
+                        <p>Iced Mocha</p>
+                        <p>摩卡/冰</p>
+                    </div>
+                    <div class="describe-bottom">
+                        <img src="img/describe-bottom.png" alt="" />
+                        <p>摩卡/冰</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel2"
+            data-slide="prev"><img src="img/left2.png" alt="" /></a>
+            <a class="carousel-control right" href="#myCarousel2"
+            data-slide="next"><img src="img/right2.png" alt="" /></a>
+        </div>
+        <div id="order" class="section2">
+            <img src="img/section2_img.jpg" alt="" />
+            <h1>我们为您极力缩短拿到一杯好咖啡的时间</h1>
+            <div class="container">
+                <div class="row" >
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <img src="img/section2-1.jpg" alt="" />
+                        <span>1</span>
+                        <span> 选择您喜爱的咖啡</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <img src="img/section2-2.jpg" alt="" />
+                        <span>2</span>
+                        <span>选择您喜爱的口味</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <img src="img/section2-3.jpg" alt="" />
+                        <span>3</span>
+                        <span>去结算</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <img src="img/section2-4.jpg" alt="" />
+                        <span>4</span>
+                        <span>下单成功</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="code">
+                <div class="code-left fl">
+                    <p>打开微信，扫码关注疯咖</p>
+                    <p>微信公众号即可一键下单</p>
+                    <h3>(微信号:formkacrew疯咖)</h3>
+                </div>
+                <div class="code-right fl">
+                    <button type="button" name="button">即刻扫码下单</button>
+                    <img src="img/code1.png" alt="" />
+                </div>
+            </div>
+            <div id="story" class="center">
+                <img src="img/center.png" alt="" />
+            </div>
+            <div class="our-info">
+                <img src="img/our_info.jpg" alt="" />
+            </div>
+            <div class="our-story">
+                <img src="img/our-story.png" alt="" />
+            </div>
+            <div class="story">
+                <div class="container">
+                    <div class="row" >
+                        <div class="col-lg-4 col-md-4 col-xs-12">
+                            <img src="img/story1.png" alt="" />
+                            <h4>疯咖们</h4>
+                            <p>3月组团队，和蚂蚁天使沟通众筹种子轮，没过一个礼拜就完成融资。4月开始装修网点，研发产品，测试物流，改装外送设备。网点还没开，就已经有很多下一轮的资本机构和他们沟通，也包括了业内比较著名的几个投资机构都纷纷找上门讨论项目。但是疯咔团队还是很低调，不被外界打扰，扎实的做好自己的工作，计划6月开始进入下一轮的融资计划。</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-xs-12">
+                            <img src="img/story2.png" alt="" />
+                            <h4>为了更好地咖啡</h4>
+                            <p>3月组团队，和蚂蚁天使沟通众筹种子轮，没过一个礼拜就完成融资。4月开始装修网点，研发产品，测试物流，改装外送设备。网点还没开，就已经有很多下一轮的资本机构和他们沟通，也包括了业内比较著名的几个投资机构都纷纷找上门讨论项目。但是疯咔团队还是很低调，不被外界打扰，扎实的做好自己的工作，计划6月开始进入下一轮的融资计划。</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-xs-12">
+                            <img src="img/story3.png" alt="" />
+                            <h4>一起成长</h4>
+                            <p>3月组团队，和蚂蚁天使沟通众筹种子轮，没过一个礼拜就完成融资。4月开始装修网点，研发产品，测试物流，改装外送设备。网点还没开，就已经有很多下一轮的资本机构和他们沟通，也包括了业内比较著名的几个投资机构都纷纷找上门讨论项目。但是疯咔团队还是很低调，不被外界打扰，扎实的做好自己的工作，计划6月开始进入下一轮的融资计划。</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="section3">
+            <div class="center">
+                <img src="img/section3_img.png" alt="" />
+            </div>
+            <div class="team-all">
+                <img class="col-md-8 col-sm-10 col-xs-12 col-sm-offset-1 col-md-offset-2" src="img/all_team.jpg" alt="" />
+            </div>
+            <div id="your-carousel-id" class="sky-carousel">
+            	<div class="sky-carousel-wrapper">
+            		<ul class="sky-carousel-container">
+            			<li>
+            				<div class="sc-content">
+            					<h2></h2>
+                                <p>
+                                    <span>好看部</span>
+    								别名"脑洞系"，为了美和疯而活，负责把美的，不一样的，好玩儿的东西分享给大家。
+								</p>
+            				</div>
+                            <h2>市场部</h2>
+                            <span>好看部</span>
+                            <img src="img/section3-1.gif" alt="" />
+            			</li>
+            			<li>
+            				<div class="sc-content">
+            					<h2></h2>
+                                <p>
+                                    <span>好喝部</span>
+    								经过定期培训喝疯咖咖啡师培训认证，认真快速的制作每一杯咖啡，为我们的味蕾负责。
+								</p>
+            				</div>
+                            <h2>门店人员</h2>
+                            <span>好喝部</span>
+                            <img src="img/section3-2.gif" alt="" />
+            			</li>
+            			<li>
+            				<div class="sc-content">
+            					<h2></h2>
+                                <p>
+                                    <span>好快部</span>
+								什么，30分钟送达？不！我们的目标是瞬移过去！
+								</p>
+            				</div>
+                            <h2>运营部</h2>
+                            <span>好快部</span>
+                            <img src="img/section3-3.gif" alt="" />
+            			</li>
+            			<li>
+            				<div class="sc-content">
+            					<h2></h2>
+                                <p><span>好穷部</span>
+								没钱也要谋发展，招人不但靠一张嘴，最靠谱的后勤部门，没有之一！
+								</p>
+                            </div>
+                            <h2>总经办</h2>
+                            <span>好穷部</span>
+                            <img src="img/section3-4.gif" alt="" />
+            			</li>
+            			<li>
+            				<div class="sc-content">
+            					<h2></h2>
+                                <p>
+                                    <span>好玩部</span>
+								    长期研发更丰富的咖啡品类有趣 的食品，视觉嗅觉味觉的三重合体，只有想不到，没有做不到。
+								</p>
+                            </div>
+                            <h2>产品研发部</h2>
+                            <span>好玩部</span>
+                            <img src="img/section3-5.gif" alt="" />
+            			</li>
+            		</ul>
+            	</div>
+            </div>
+        </div>
+        <div id="active" class="section4">
+            <div class="center">
+                <img src="img/section4_img.png" alt="" />
+            </div>
+            <div class="active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-sm-6">
+                            <img src="img/active1.jpg" alt="" />
+                            <div class="none">
+                                <h3>咖啡的起源</h3>
+                                <p>咖啡是用经过烘焙的咖啡豆制作出来的饮料，与可可、茶同为流行于世界的主要饮品。咖啡树是属茜草科常绿小乔木，日常饮用的咖啡是用咖啡豆配合各种不同的烹煮器具制作出来的，而咖啡豆就是指咖啡树果实里面的果仁，再用适当方法烘焙而成，品尝起来是苦涩味道。</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-sm-6">
+                            <img src="img/active1.jpg" alt="" />
+                            <div class="none">
+                                <h3>咖啡豆的生产过程</h3>
+                                <p>一棵咖啡树可收获3－5公斤果实，生咖啡豆占果实质量的1／5。从果实到生咖啡豆确实是一件费时费力的工作。</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-sm-6">
+                            <img src="img/active1.jpg" alt="" />
+                            <div class="none">
+                                <h3>活动三</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-sm-6">
+                            <img src="img/active1.jpg" alt="" />
+                            <div class="none">
+                                <h3>活动四</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section5">
+            <div class="center">
+                <img src="img/section5_img.png" alt="" />
+            </div>
+            <div id="map" class="map">
+                <img src="img/section5_map.jpg" alt="" />
+                <div class="pos">
+                    <img src="img/logo1.png" class="posilogo" alt="" />
+                    <img src="img/line3.png" class="posiline" alt="" />
+                </div>
+                <div class="location-detail">
+                    <div class="city">上海
+                        <img class="fr flag city-arrow" src="img/downarrow.png" alt="">
+                        <img class="fr flag none city-arrow-down" src="img/rarrow.png" alt="">
+                    </div>
+                    <div class="city-info none">
+                        <p>轻加盟门店</p>
+                        <ul>
+                            <li data-i="0" data-storex="121.5252040" data-storey="31.2407910">石角场店</li>
+                            <li data-i="1" data-storex="121.4653410" data-storey="31.2562890">愚园东路店</li>
+                            <li data-i="2" data-storex="121.4337920" data-storey="31.1790510">复兴中路店</li>
+                            <li data-i="3" data-storex="121.1972140" data-storey="31.2343990">常熟路店</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="map-bottom">
+                <span><a href="">加盟合作</a></span>
+                <span><a href="">加入我们</a></span>
+            </div>
+        </div>
+        <div id="contact" class="section6">
+            <div class="center">
+                <img src="img/section6_img.png" alt="" />
+            </div>
+            <div class="link">
+                <img src="img/section6_phone.png" alt="" />
+                <span>400-829-0517</span>
+                <img src="img/section6_wx.png" alt="" />
+                <span>foamkacrew疯咖</span>
+                <img src="img/section6_email.png" alt="" />
+                <span>hr@foamka.me</span>
+            </div>
+        </div>
+        <footer>
+            <img src="img/footer_img.png" alt="" />
+            <div class="text-center">
+                <span>©2015 foamka crew. All rights reserved.</span>
+                <a href="">沪icp备********号</a>
+            </div>
+        </footer>
+    </body>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/jquery.sky.carousel-1.0.min.js"></script>
+    <script src="js/public.js" charset="utf-8"></script>
+
+</html>

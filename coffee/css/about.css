@@ -1,0 +1,73 @@
+.text-center {
+    text-align: center;
+}
+.w {
+    width: 100%;
+}
+.about-img {
+    width: 100%;
+}
+section {
+    /*background: rgba(255, 0, 0, 0.5);*/
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -10%;
+    padding: 20px 7%;
+    color: #111;
+}
+.part {
+    border-bottom: 1px solid #ccc;
+    padding: 35px;
+    margin-bottom: 40px;
+}
+.part1 p {
+    padding-left: 6%;
+    font-size: 25px;
+}
+.part1 h5 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.part2 {
+    padding: 35px;
+}
+.part-btn {
+    background: #7cc1cc;
+    display: inline-block;
+    width: 110px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 15px;
+    margin: 4px 20px;
+}
+.part-place {
+    font-size: 17px;
+    font-weight: 500;
+}
+.part ul {
+    margin-top: 40px;
+    display: inline-block;
+}
+.part li {
+    /*给每一个li前面加数字*/
+    list-style: decimal inside;
+    margin: 12px 0;
+    color:  #7cc1cc;
+    font-size: 18px;
+}
+.part3 ul {
+    width: 100%;
+}
+.part4 p {
+    font-size: 12px;
+    color: #aaa;
+}
+.part4 h5 {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #aaa;
+}

@@ -1,0 +1,470 @@
+/*=========================大图滚动=========================*/
+@media (max-width: 767px){
+    #section1 img {
+        width: 40%;
+    }
+    .visible-xs {
+        display: block !important;
+    }
+    #myCarousel2 .carousel-indicators {
+        bottom: -45px;
+    }
+    .our-info img {
+        width: 940px;
+    }
+}
+#myCarousel1 .carousel-control.left, #myCarousel1 .carousel-control.right {
+    padding-top: 25%;
+}
+#myCarousel2 .carousel-control.left {
+    left: 10%;
+    top: 60%;
+    position: absolute;
+    transform: translate3D(-50%,-50%,0);
+    z-index: 100;
+}
+#myCarousel2 .carousel-control.right {
+    top: 60%;
+    position: absolute;
+    transform: translate3D(-50%,-50%,0);
+    z-index: 100;
+}
+#section1 {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+#section1 img {
+    width: 400px;
+    margin: 129px 0 180px 0;
+}
+/*轮播==============*/
+#myCarousel2 {
+    margin-bottom: 60px;
+    border-top: 1px solid #ccc;
+}
+#myCarousel2 .item {
+    width: 100%;
+    margin-top: 70px;
+}
+#myCarousel2 .inner {
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+}
+#myCarousel2 .inner>img{
+    width: 100%;
+}
+#myCarousel2 .item .top {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#myCarousel2 .item .bottom {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/*轮播导航*/
+#myCarousel2 .carousel-indicators {
+    bottom: -35px;
+}
+#myCarousel2 .carousel-indicators li {
+    border-color: #aaa;
+}
+#myCarousel2 .carousel-indicators .active {
+    background-color: #999;
+}
+.visible-xs {
+    width: 100%;
+    text-align: center;
+}
+.visible-xs h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.describe-top{
+    background: rgba(255, 0, 0, 0.5);
+    color: #9b9b9b;
+    display: none;
+}
+.describe-top>img {
+    position: absolute;
+    width: 30%;
+    left: 16%;
+    top: 6%;
+    z-index: 200;
+}
+.describe-top p:nth-of-type(1) {
+    text-align: left;
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.describe-top p:nth-of-type(2) {
+    text-align: left;
+    width: 20%;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+}
+.describe-bottom {
+    display: none;
+}
+.describe-bottom>img {
+    position: absolute;
+    right: 19%;
+    width: 30%;
+    bottom: 18%;
+    z-index: 200;
+}
+.describe-bottom>p {
+    position: absolute;
+    right: 19%;
+    bottom: 11%;
+    z-index: 200;
+    color: #111;
+}
+/*======================= section2 ======================*/
+
+.section2  {
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+.section2>img {
+    width: 100%;
+}
+.section2 h1 {
+    margin: 100px 0;
+    text-align: center;
+    font-size: 28px;
+}
+.row img {
+    width: 100%;
+}
+.section2 .row>div span:nth-of-type(1) {
+    background: #79cad6;
+    color: #fff;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 17px;
+}
+.section2 .code {
+    width: 300px;
+    height: 94px;
+    margin: 140px auto 46px auto;
+}
+.code .code-left {
+    width: 60%;
+}
+.code .code-left h3 {
+    font-size: 13px;
+    color: #aaa;
+}
+.code .code-right {
+    width: 40%;
+}
+.code .code-right button {
+    padding: 2px 6px;
+    width: 108px;
+    height: 31px;
+    border: 0;
+    border-radius: 4px;
+    background: #79cad6;
+    color: #fff;
+    font-size: 14px;
+}
+.code .code-right img {
+    width: 108px;
+    display: none;
+}
+.code .code-right:hover img {
+    display: block;
+}
+.center {
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.center img {
+    width: 110px;
+    margin: 140px 0;
+}
+.our-info {
+    text-align: center;
+    padding: 0 15px;
+}
+.our-info img {
+    width: 100%;
+}
+.our-story {
+    text-align: center;
+    width: 100%;
+}
+.our-story img {
+    width: 40%;
+    margin: 150px auto 75px auto;
+}
+.story h4 {
+    font-size: 24px;
+    margin: 20px 0 10px 0;
+}
+.story img {
+    width: 100%;
+}
+@media (max-width: 500px){
+    .section2 .row .col-lg-3 {
+        width: 100%;
+    }
+}
+
+/*======================= section3 ======================*/
+.center {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.center img {
+    margin: 140px 0;
+    width: 110px;
+}
+.team-all {
+    width: 100%;
+}
+
+/*======================= section4 ======================*/
+.sky-carousel {
+    width: 100%;
+    height: 450px;
+}
+#your-carousel-id {
+    width: 90%;
+    margin: 0 auto;
+}
+#your-carousel-id img {
+    width: 350px;
+    height: 200px;
+}
+#your-carousel-id li>span {
+    border-bottom: 3px solid #b0e0e7;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+#your-carousel-id li>h2 {
+    font-size: 22px;
+    margin: 0;
+}
+#your-carousel-id li {
+    text-align: center;
+    /*-webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.1));*/
+}
+.sky-carousel .sc-content-wrapper p {
+    width: 320px;
+    margin: 0 auto;
+}
+#your-carousel-id span {
+    color: #79cee5;
+}
+.active .none {
+    width: 100%;
+    height: 45px;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+}
+.active .none h3 {
+    font-size: 20px;
+    margin: 0;
+    line-height: 45px;
+    width: 100%;
+    z-index: -10;
+}
+.active .none p {
+    font-size: 14px;
+    width: 78%;
+    margin: 0 auto;
+    text-align: left;
+}
+.active .row>div {
+    float: left;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5%;
+}
+.active .row>div:hover .none {
+    height: 100%;
+    padding-top: 60px;
+    transition: all 0.4s ease-in-out;
+}
+@media (min-width: 768px){
+    .col-sm-6 {
+        width: 45%;
+    }
+}
+/*======================= section5 ======================*/
+.section5  {
+    width: 100%;
+    position: relative;
+}
+.map {
+    position: relative;
+}
+.section5 .map>img{
+    width: 100%;
+}
+.pos {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #000;
+    left: 61%;
+    top: 59%;
+    border-radius: 50px
+}
+.pos>img:nth-of-type(1){
+    position: absolute;
+    left: 78px;
+    top: 34px;
+    width: 140px;
+}
+.pos>img:nth-of-type(2){
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    width: 100px;
+}
+.city {
+    width: 130px;
+    height: 35px;
+    padding: 9px 10px;
+    font-size: 13px;
+    background-color: #7bcbd6;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.city-arrow {
+    width: 8px;
+    margin-top: 2px;
+    height: 14px;
+}
+.none {
+    display: none;
+}
+.city-arrow-down{
+    width: 15px;
+    margin-top: 4px;
+}
+.city-info {
+    width: 130px;
+    height: 155px;
+    background-color: #739aa5;
+    padding-left: 9px;
+    padding-top: 7px;
+    font-size: 12px;
+    font-family: "华文细黑";
+    color: #f1f1f1;
+    overflow: auto;
+}
+.city-info p {
+    color: #97c5cc;
+    font-size: 12px;
+}
+.city-info ul {
+    list-style-type: circle;
+}
+.city-info li {
+    margin: 6px 0;
+    cursor: pointer;
+}
+.location-detail {
+    color: #fff;
+    width: 130px;
+    height: 170px;
+    position: absolute;
+    left: 27%;
+    top: 22%;
+}
+
+
+
+
+.map-bottom {
+    width: 100%;
+    text-align: center;
+    margin: 13px 0 80px 0;
+    font-size: 13px;
+}
+.map-bottom span {
+    display: inline-block;
+    margin: 0 60px;
+}
+.map-bottom a {
+    color: #000;
+}
+.map-bottom a:hover {
+    text-decoration: none;
+    color: #7bcbd6;
+}
+/*======================= section6 ======================*/
+.section6 .link {
+    width: 100%;
+    text-align: center;
+}
+.section6 .link img {
+    width: 18px;
+}
+.section6 .link span {
+    margin: 0 120px 0 8px;
+}
+/*======================= footer ======================*/
+footer {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    background: #303030;
+}
+footer img {
+    width: 80px;
+    margin: 75px 0;
+}
+footer .text-center {
+    background: #fff;
+    width: 100%;
+    height: 20px;
+}
+footer .text-center a {
+    color: #555;
+}
+/*返回头部*/
+.topbtn {
+    position: fixed;
+    bottom: 45px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
+    background: #79cad6;
+    font-size: 50px;
+    text-align: center;
+    line-height: 64px;
+    color: #fff;
+    font-weight: bold;
+    z-index: 100;
+    display: none;
+    cursor: pointer;
+}
+.topbtn:hover {
+    opacity: 0.8;
+}
